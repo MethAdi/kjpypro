@@ -38,4 +38,8 @@ py proj.py
 
 Use the **Readings** tab in the app to view submitted readings. The simulator controls create generated readings only when you run them.
 
+## Export readings
+
+Run `py export_sensor_readings.py` to export the current `sensor_readings` table to `data/sensor_readings.csv`. The export includes every column and row in that table, and the script prompts for the PostgreSQL password securely. The CSV is a snapshot; run the export again to refresh it.
+
 The PostgreSQL data directory and local database files are intentionally excluded from Git. The database schema is created by the application at startup.
