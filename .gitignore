@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Local databases and backups
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.backup
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Local editor/runtime settings
+.vscode/settings.json
+.venv/
+venv/
